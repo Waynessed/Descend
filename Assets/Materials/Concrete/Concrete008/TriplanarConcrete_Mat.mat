@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TriplanarConcrete_Mat
+  m_Shader: {fileID: 4800000, guid: a7b1becaabd87d54c94a420c5e57ea47, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTex:
+        m_Texture: {fileID: 2800000, guid: faa3c1977ec96a1429ce933f992c04c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTex2:
+        m_Texture: {fileID: 2800000, guid: ffaff2cc1c7ae2d458ae53c3e3e5e310, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: faa3c1977ec96a1429ce933f992c04c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlendNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 7f85310d7e6c54a4ebe6ae0fed15f8eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 9a88fae44332d644d85df656c511aa17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 9a88fae44332d644d85df656c511aa17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTex:
+        m_Texture: {fileID: 2800000, guid: 4881e07a44a887f40b3a9ca0e2811c98, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AOIntensity: 1
+    - _BlendScale: 2
+    - _BlendSharpness: 6
+    - _BlendStrength: 0.5
+    - _Metallic: 0
+    - _NormalStrength: 1
+    - _Occlusion: 1
+    - _RoughnessGamma: 1.2
+    - _RoughnessInvert: 1
+    - _RoughnessRemapMax: 0.9
+    - _RoughnessRemapMin: 0.1
+    - _RoughnessStrength: 0.15
+    - _Smoothness: 0.2
+    - _Tiling: 0.3
+    - _UseAOTex: 1
+    - _UseMaskTex: 0
+    - _UseRoughnessTex: 1
+    m_Colors:
+    - _BaseColorTint: {r: 0.7688679, g: 0.84476423, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

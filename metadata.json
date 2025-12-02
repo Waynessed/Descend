@@ -1,0 +1,29 @@
+{
+  "repoUrl": "https://github.com/feit-comp30019/2025s2-project-2-f1sh-and-ch1ps",
+  "teamName": "F1sh and Ch1ps",
+  "teamMembers": [
+    {
+      "name": "Wayne Chen",
+      "github": "Waynessed",
+      "email": "waychen@student.unimelb.edu.au"
+    },
+    {
+      "name": "Yuting Yin",
+      "github": "Yuting-Yin",
+      "email": "yuting.yin@student.unimelb.edu.au"
+    },
+    {
+      "name": "Katherine Xin",
+      "github": "KAXIN123",
+      "email": "kaxin@student.unimelb.edu.au"
+    },
+    {
+      "name": "Jiayi Liu",
+      "github": "jia1ishere",
+      "email": "liuj21@student.unimelb.edu.au"
+    }
+  ],
+  "gameTitle": "Descent",
+  "gameBlurb": "Our game is a first-person survival horror set in a vast, nightmarish maze. You play a wooden puppet inhabited by a trapped human soul, cast into the labyrinth as part of a cruel game devised by a godlike entity. Your goal is to navigate the maze, manage sanity, and evade monstrous hunters that patrol the corridors. The puppet's small, fragile body reinforces the Miniature theme - the world feels overwhelmingly large and oppressive while the player is small, vulnerable, and constantly pursued.",
+  "videoUrl": "https://youtu.be/kxtxaj6H5cg"
+}
