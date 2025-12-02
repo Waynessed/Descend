@@ -259,57 +259,9 @@ The mini-map flickers occasionally — as if something unseen is interfering wit
     - Audacity for editing and mixing sound effects
     - OpenGameArt.org for royalty free sound effects
 
-## 8. Team Communication and Task Assignment :speaking_head:
-- Work Distribution:
-
-    ### Yuting Ying
-    **Role:** Environment and art designer  
-    - Modelled and textured all **characters**, **monsters**, and **environmental assets**.  
-    - Designed and built the **maze map layout** in Unity.  
-    - Implemented custom **shader effects** for lighting and fog.  
-    - [View shader → `Assets/Shaders/Fog.shader`](./Assets\Materials\Fog\FogParticleURP.shader)  
-    - [View scene → `Assets/Scripts\MonsterChase.cs`](./Assets\Scripts\MonsterChase.cs)
-    ---
-    
-    ### Jiayi Liu
-    **Role:** UI and audio designer  
-    - Designed and implemented the **main menu UI**, **pause menu**, and **settings menu**.  
-    - Created and scripted the **in-game tutorial** system (`TutorialManager.cs`).  
-    - Integrated **sound effects** and **background music** through Unity’s audio system.  
-    - [View code → `Assets\Scripts\MainMenuManager.cs`](./Assets\Scripts\MainMenuManager.cs)  
-    - [View code → `Assets\Scripts\AudioManager.cs`](./Assets\Scripts\AudioManager.cs)
-    
-    ---
-    
-    ### Wayne Chen
-    **Role:** Programmer & gameplay designer  
-    - Designed and implemented the **game logic** and **framework**, including player movement and item interaction (`IInteractable.cs`), and player state systems.  
-    - Contributed to performance optimization and WebGL build setup.  
-    - [View code → `Assets\Scripts\PlayerController.cs`](./Assets\Scripts\PlayerController.cs)  
-    - [View code → `Assets\Scripts\SprintUnlockPickup.cs`](./Assets\Scripts\SprintUnlockPickup.cs)
-    
-    ---
-    
-    ### Katherine Xin
-    **Role:** Documentation and evaluation lead  
-    - Authored the **Game Design Document (GDD)** and **REPORT.md**.  
-    - Led the creation of the **game evaluation plan**, coordinating **playtesting** and collection of **player feedback**.  
-    - Contributed to the designing of the maze.  
-    - [View document → `README.md`](./README.md)  
-    - [View document → `REPORT.md`](./REPORT.md)
-
-- Communication Channels:
-    - WeChat – our primary communication platform, used for daily communication, quick questions, and informal updates, also ensure everyone is in sync.
-    - Weekly offline meetings - we hold offline meeting every week to communicate our ideas of the game and making big decisions
-
-- Project Management Tool:
-    - Trello – used for task tracking and milestone planning. Tasks are divided into To Be Done, In Progress, Done.
-        - Each card includes a task description, assignee, deadline, and checklist.
-        - Used to monitor team progress and review.
 
 
-
-## 9. Possible Challenges :anger:
+## 8. Possible Challenges :anger:
 
 - Technical Complexity (Monster AI and Sanity System)
 
@@ -336,16 +288,3 @@ The mini-map flickers occasionally — as if something unseen is interfering wit
 
     - Plan: Prioritise the minimum viable product (MVP)—basic maze, player movement, monster chase, and sanity bar. Extra features (e.g., environmental interactions, multiple monster types) will only be added if time permits.
 
-## 10. Project Timeline ⌛
-
-| Week (dates) | Focus of the week | Milestone |
-| --- | --- | --- |
-| **Sep 8 – 14 (Week 7)** | 1) Brainstorm game concepts that fit the Miniature theme.<br>2) Gather inspiring references (mechanics, visuals, art styles).<br>3) Individually define a clear, feasible game vision. | None |
-| **Sep 15 – 21 (Week 8)** | 1) Team meeting to share and discuss research/ideas.<br>2) Select final concept and complete the GDD (scope, mechanics, art direction, risks). | Milestone 2 – GDD |
-| **Sep 22 – 28 (Week 9)** | 1) Research assets that match theme/art style and are feasible to integrate.<br>2) Study comparable games and tutorials for core mechanics (e.g. player movement). | Milestone 3 – Team Evaluation |
-| **Sep 29 – Oct 5 (Break)** | 1) Build the game environment (maze) with navigable paths and an exit for basic completion.<br>2) Create and integrate character models; rig and import into Unity with basic animations. | None |
-| **Oct 6 – 12 (Week 10)** | 1) Connect core SFX (footsteps, heartbeat) to enhance immersion.<br>2) Add essential materials and tune environment lighting.<br>3) Tweak player/monster movement for a smooth, fully playable demo. | Milestone 4 – Evaluation Demo |
-| **Oct 13 – 19 (Week 11)** | 1) Research gameplay trailers for pacing and presentation ideas.<br>2) Apply final adjustments to core logic from playtests.<br>3) Complete settings/start/end scene UIs.<br>4) Record and edit the gameplay video (soundtrack, captions/script, cuts). | Milestone 5 – Gameplay Video |
-| **Oct 20 – 26 (Week 12)** | Continue working on the game. | None |
-| **Oct 27 – Nov 2 (SWOTVAC)** | 1) Internal playtest to catch bugs and polish rough edges.<br>2) Push a test build to GitHub and verify WebGL runs correctly.<br>3) Finalise evaluation questions.<br>4) Recruit participants and distribute build + questionnaire. | None |
-| **Nov 3 – Nov 9** | 1) Analyse results from the questionnaire and post-task walkthrough.<br>2) Make adjustments accordingly.<br>3) Finalise all documentation (GDD, evaluation report) reflecting updates. | Milestone 6 – Final Submission<br>Milestone 7 – Team Evaluation 2<br>Milestone 8 – Feedback Reflection |
